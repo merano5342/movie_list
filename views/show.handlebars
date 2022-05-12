@@ -1,0 +1,24 @@
+<!-- ./views/show.handlebars -->
+
+<div class="container py-5">
+  <div class="row">
+
+    <div class="col-12 col-md-12 col-lg-5">
+
+      <img class="rounded mb-4" src="https://movie-list.alphacamp.io/posters/{{movie.image}}" alt="Card image cap"
+        style="max-height: 500px;">
+    </div>
+
+    <div class="col-12 col-md-12 col-lg-7 mx-auto">
+      <h1 class="mb-4 text-uppercase">{{movie.title}}</h1>
+      <p class="text-secondary mb-1 text-decoration-underline">
+        <strong>release date:</strong>
+        {{movie.release_date}}
+      </p>
+      <br>
+      <p>
+        {{movie.description}}
+      </p>
+    </div>
+  </div>
+</div>
